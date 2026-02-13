@@ -83,3 +83,22 @@ export function ProjectIcon() {
   );
 }
 
+export function OneiroIcon() {
+  return (
+    <svg
+      className="h-6 w-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      aria-hidden="true"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth={2}
+        d="M12 3v1m6.364 1.636l-.707.707M21 12h-1m-1.636 6.364l-.707-.707M12 21v-1m-6.364-1.636l.707-.707M3 12h1m1.636-6.364l.707.707M9 11a3 3 0 116 0 3 3 0 01-6 0z"
+      />
+    </svg>
+  );
+}
+

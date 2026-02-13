@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import LinkCard from '@/components/LinkCard';
-import { ProjectIcon } from '@/components/icons';
+import { ProjectIcon, OneiroIcon } from '@/components/icons';
 
 export default function Projects() {
   return (
@@ -110,6 +110,22 @@ export default function Projects() {
                 />
               </svg>
             </a>
+          </div>
+
+          {/* Oneiro Project */}
+          <div className="group rounded-xl border border-black/[.08] bg-white p-6 transition-all duration-200 hover:border-black/[.12] hover:bg-black/[.02] hover:shadow-sm dark:border-white/[.145] dark:bg-black dark:hover:border-white/[.2] dark:hover:bg-[#1a1a1a]">
+            <div className="mb-3 flex items-center gap-3">
+              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-zinc-100 dark:bg-zinc-800">
+                <OneiroIcon />
+              </div>
+              <div>
+                <h3 className="font-semibold text-black dark:text-white">Oneiro</h3>
+                <p className="text-sm text-zinc-600 dark:text-zinc-400">AI Rüya Analizi</p>
+              </div>
+            </div>
+            <p className="text-sm leading-6 text-zinc-600 dark:text-zinc-400">
+              Rüyalarınızı yapay zeka ile analiz edin. Bilinçaltınızın mesajlarını keşfetmek için Oneiro'yu kullanın.
+            </p>
           </div>
         </div>
       </main>
